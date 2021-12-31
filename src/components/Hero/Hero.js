@@ -13,9 +13,10 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt molestiae labore ullam eum? Et, possimus.
+      Hi, I'm Amir Mazed. 
+      Full Stack Web Developer. Experienced in Javascript, React, Node.js, Express.js, Mongodb
       </SectionText>
-      <Button onClick={() => window.location ='https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location ='https://drive.google.com/file/d/1g3Eant_ExWU37iHpX76Zg9va0Hsb70CX/view?fbclid=IwAR1R3XE-mLx7ZR3gYcUGrZcrMVFaSvHCDKuE1LXyO11k0E-er52zSyQrXOM'}>Learn More</Button>
     </LeftSection>
   </Section>
 

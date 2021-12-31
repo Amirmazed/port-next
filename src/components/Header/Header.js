@@ -35,17 +35,20 @@ const Header = () =>  (
     </Div2>
 
     <Div3>
-      <SocialIcons href='https://github.com'>
+
+     <SocialIcons href='https://github.com/Amirmazed'>
         <AiFillGithub size='3rem' />
+        </SocialIcons>
+
+      <SocialIcons href='https://www.linkedin.com/in/amir-mohammad-mazed-711267227/'>
+      <AiFillLinkedin size='3rem' />
       </SocialIcons>
 
-      <SocialIcons href='https://linkedin.com'>
-        <AiFillLinkedin size='3rem' />
-      </SocialIcons>
-
-      <SocialIcons href='https://facebook.com'>
+      <SocialIcons href='https://www.facebook.com/amir.mazed.35'>
         <AiFillFacebook size='3rem' />
       </SocialIcons>
+
+
     </Div3>
   </Container>
 );

@@ -47,9 +47,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, dignissimos! Quam nesciunt impedit rerum beatae!
+      I am a highly organized and hard working individual, seeking an opportunity to begin a career as a software engineer and improve skills through learning from professionals. I ami skilled in Html, Css, Vanila Javascript, React Js, Express Js. I have build website with Firebase Authentication, Mern Stack. I am also familiar with payment gateway. 
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
       <>
         {TimeLineData.map((item, index) => (
           <CarouselMobileScrollNode key={index} final={
@@ -114,7 +115,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
           </CarouselButton>
         ))}
-      </CarouselButtons>
+      </CarouselButtons> */}
       <SectionDivider />
       
     </Section>
